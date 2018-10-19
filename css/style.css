@@ -1,0 +1,54 @@
+body, html {
+    height: 100%;
+}
+
+.initialBackGround { 	
+    /* The image used */
+    background-image: url("img/abstractBackground.jpg");
+
+    /* Full height */
+    height: 100%; 
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}	
+
+.bgimg-1, .bgimg-2, .bgimg-3 {
+  position: relative;
+  opacity: 0.65;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+.bgimg-1 {
+  background-image: url("");
+  /*
+    "img/HeadShot.jpg"
+  */
+}
+
+.col-main {
+  margin-top:3em;
+  margin-left:15%;
+  
+}
+
+
+.caption span.border {
+  background-color: #111;
+  color: #fff;
+  padding: 18px;
+  font-size: 25px;
+  letter-spacing: 10px;
+}
+
+
+.headShot {
+  position: absolute;
+  margin-top: 2%;
+  margin-left: 50%;
+
+}
