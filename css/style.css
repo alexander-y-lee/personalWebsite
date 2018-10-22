@@ -6,19 +6,28 @@ body, html {
 #console {
   display:none;
   height:250px;
-  width:250px;
+  width:350px;
   background-color:#000;
   font-family:monospace;
   color:#FFF;
 }
 
 #userInput {
-  width:250px;
+  width:350px;
+  background-color:#000;
+  color:#fff;
+}
+
+input:focus {
+  border-color: inherit;
+  -webkit-appearance: none;
+  box-shadow: none;
 }
 
 #log {
     overflow-y:scroll;
     height:250px;
+
 }
 .initialBackGround { 	
     /* The image used */
