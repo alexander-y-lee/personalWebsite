@@ -2,6 +2,12 @@ body, html {
     height: 100%;
 }
 
+#console {
+  display:none;
+  height:250px;
+  width:250px;
+  background-color:#000;
+}
 .initialBackGround { 	
     /* The image used */
     background-image: url("img/abstractBackground.jpg");
