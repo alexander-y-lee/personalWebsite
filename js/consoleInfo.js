@@ -1,6 +1,6 @@
 "use strict";
 
-
+var previousCommands=[];
 
 var greetings = ["hello!", "hey!", "sup", "hey there", "oh hey", "oh hi", "haha hey", "howdy"];
 
