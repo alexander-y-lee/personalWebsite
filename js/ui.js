@@ -20,8 +20,9 @@ $(document).ready(function(){
 
 
 function handleInput(sText){
-	sText = sText.replace(/\?|\.|[0..9]|\!/g,'');
 	writeToFakeConsole(sText, ">");
+	sText = sText.replace(/\?|\.|[0..9]|\!/g,'');
+	
 	$('#userInput').val("");
 	if(typicalUserGreetings.includes(sText)){
 		sText = "hello"
@@ -34,5 +35,5 @@ function handleInput(sText){
 }
 
 function writeToFakeConsole(sText, sPrefix = ""){
-	$('#log').append('<br>' + sPrefix + sText).scrollTop(1E10);;
+	$('#log').append('<br>' + sPrefix + sText).scrollTop(1E10);
 }
