@@ -62,6 +62,17 @@ input:focus {
 
 }
 
+#headShot {
+  -moz-transition: transform 1s;
+  -webkit-transition: transform 1s;
+  transition: transform 1s;
+  z-index: 20;
+}
+
+.flip {
+  transform: rotate(-180deg);
+}
+
 
 .caption span.border {
   background-color: #111;

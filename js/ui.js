@@ -9,6 +9,12 @@ $(document).ready(function(){
 		$('#console').slideToggle(nAnimationTime);
 	});
 
+
+	$( "#headShot" ).click( function() {
+	    $("#headShot").toggleClass('flip');
+	});
+
+
 	var input = document.getElementById("userInput");
 	input.addEventListener("keyup",function(event){
 		event.preventDefault();
